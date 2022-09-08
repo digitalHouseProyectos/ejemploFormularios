@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cajas {
+    display:flex;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    align-items: center;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding: 0;
+    margin: 8%;
+    width: 70vw;
+}
